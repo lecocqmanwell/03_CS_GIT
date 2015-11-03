@@ -12,146 +12,178 @@
         <div>
           <h3>Local Changes</h3>
         </div>
-        <div>
+        <div class="commandes">
           <p>git status</p>
         </div>
-        <div>
+        <div class="description">
           <p>Changed in working directory</p>
         </div>
-        <div>
-          <p>git diff</p>
+        <div class="commandes">
+          <p >git diff</p>
         </div>
-        <div>
+        <div class="description">
           <p>Tracked file changes</p>
         </div>
-        <div>
-          <p>git add file1 file2 file3</p>
+        <div class="commandes">
+          <p >git add file1 file2 file3</p>
         </div>
-        <div>
+        <div class="description">
           <p>Add changed files</p>
         </div>
-        <div>
+        <div class="commandes">
           <p>git rm file<br/>
           git rm dir/ -r<br/>
-          (recursive under directory)</p>
+          <em>(recursive under directory)</em></p>
         </div>
-        <div>
+        <div class="description">
           <p>Remove files</p>
         </div>
-        <div>
-          <p>git diff --cached</p>
+        <div class="commandes">
+          <p >git diff --cached</p>
         </div>
-        <div>
+        <div class="description">
           <p>See files ready for commit</p>
         </div>
-        <div>
+        <div class="commandes">
           <p>git commit<br/>
           git commit -m "My message"<br/>
           git commit -a -m "My Message"<br/>
-          (tracked files only, auto add)</p>
+          <em>(tracked files only, auto add)</em></p>
         </div>
-        <div>
+        <div class="description">
           <p>Commit changes</p>
         </div>
-        <div>
-          <p>git commit --amend</p>
+        <div class="commandes">
+          <p >git commit --amend</p>
         </div>
-        <div>
+        <div class="description">
           <p>Change last commit</p>
         </div>
-        <div>
-          <p> git checkout -- file</p>
+        <div class="commandes">
+          <p > git checkout -- file</p>
         </div>
-        <div>
+        <div class="description">
           <p>Revert changes to file</p>
         </div>
       </section>
       <section>
         <div>
-          <h2>Remote Update / Publish</h2>
+          <h3>Remote Update / Publish</h3>
         </div>
-          <div>
-            <p>git remote -v</p>
+          <div class="commandes">
+            <p >git remote -v</p>
           </div>
-          <div>
+          <div class="description">
             <p>List Remote</p>
           </div>
-          <div>
+          <div class="commandes">
             <p>git remote show remote</p>
           </div>
-          <div>
+          <div class="description">
             <p>Show information</p>
           </div>
-          <div>
+          <div class="commandes">
             <p>git remote add path/url</p>
           </div>
-          <div>
+          <div class="description">
             <p>Add remote</p>
           </div>
-          <div>
-            <p>git fetch remote</p>
+          <div class="commandes">
+            <p >git fetch remote</p>
           </div>
-          <div>
+          <div class="description">
             <p>Fetch changes</p>
-          </div><div>
-            <p>git push remote :branch</p>
           </div>
-          <div>
+          <div class="commandes">
+            <p >git push remote :branch</p>
+          </div>
+          <div class="description">
             <p>Publish tags</p>
           </div>
         </section>
         <section>
           <h3>Branching/Tagging</h3>
-          <div>
-            <p>git branch</p>
+          <div class="commandes">
+            <p >git branch</p>
           </div>
-          <div>
+          <div class="description">
             <p>List branches</p>
           </div>
-          <div>
+          <div class="commandes">
             <p>git checkout branch</p>
           </div>
-          <div>
+          <div class="description">
             <p>Switch to branch</p>
           </div>
-          <div>
+          <div class="commandes">
             <p>git branch new</p>
           </div>
-          <div>
+          <div class="description">
             <p>Create new branch</p>
           </div>
-          <div>
+          <div class="commandes">
             <p>git branch new existing</p>
           </div>
-          <div>
+          <div class="description">
             <p>Create branch from existing</p>
           </div>
-          <div>
+          <div class="commandes">
             <p>git branch -d branch</p>
           </div>
-          <div>
+          <div class="description">
             <p>Delete branch</p>
           </div>
-          <div>
+          <div class="commandes">
             <p>git tag tagname</p>
           </div>
-          <div>
+          <div class="description">
             <p>Tag current commit</p>
           </div>
-
         </section>
-
-
-
-
-
-
-
-</body>
-
-
-
-
-
-
+        <section>
+            <h3>History</h3>
+              <div class="commandes">
+                <p >git log</p>
+              </div>
+              <div class="description">
+                <p>Show all commits</p>
+              </div>
+              <div class="commandes">
+                <p>git log --pretty=-short</p>
+              </div>
+              <div class="description">
+                <p>Short Format</p>
+              </div>
+              <div class="commandes">
+                <p>git log -p</p>
+              </div>
+              <div class="description">
+                <p>Patches</p>
+              </div>
+              <div class="commandes">
+                <p>git log file</p>
+              </div>
+              <div class="description">
+                <p>Show file commits</p>
+              </div>
+              <div class="commandes">
+                <p>git log dir/</p>
+              </div>
+              <div class="description">
+                <p>Show directory commits</p>
+              </div>
+              <div class="commandes">
+                <p>git log --stat</p>
+              </div>
+              <div class="description">
+                <p>Stats</p>
+              </div>
+              <div class="commandes">
+                <p>git blame file</p>
+              </div>
+              <div class="description">
+                <p>Who changed file</p>
+              </div>
+            </section>
+          </body>
   </html>

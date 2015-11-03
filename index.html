@@ -6,54 +6,147 @@
     <title>Cheatsheet GIT</title>
 
   </head>
-<body>
+  <body>
+    <h1>How to use Git...</h1>
+      <section>
+        <div>
+          <h3>Local Changes</h3>
+        </div>
+        <div>
+          <p>git status</p>
+        </div>
+        <div>
+          <p>Changed in working directory</p>
+        </div>
+        <div>
+          <p>git diff</p>
+        </div>
+        <div>
+          <p>Tracked file changes</p>
+        </div>
+        <div>
+          <p>git add file1 file2 file3</p>
+        </div>
+        <div>
+          <p>Add changed files</p>
+        </div>
+        <div>
+          <p>git rm file<br/>
+          git rm dir/ -r<br/>
+          (recursive under directory)</p>
+        </div>
+        <div>
+          <p>Remove files</p>
+        </div>
+        <div>
+          <p>git diff --cached</p>
+        </div>
+        <div>
+          <p>See files ready for commit</p>
+        </div>
+        <div>
+          <p>git commit<br/>
+          git commit -m "My message"<br/>
+          git commit -a -m "My Message"<br/>
+          (tracked files only, auto add)</p>
+        </div>
+        <div>
+          <p>Commit changes</p>
+        </div>
+        <div>
+          <p>git commit --amend</p>
+        </div>
+        <div>
+          <p>Change last commit</p>
+        </div>
+        <div>
+          <p> git checkout -- file</p>
+        </div>
+        <div>
+          <p>Revert changes to file</p>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h2>Remote Update / Publish</h2>
+        </div>
+          <div>
+            <p>git remote -v</p>
+          </div>
+          <div>
+            <p>List Remote</p>
+          </div>
+          <div>
+            <p>git remote show remote</p>
+          </div>
+          <div>
+            <p>Show information</p>
+          </div>
+          <div>
+            <p>git remote add path/url</p>
+          </div>
+          <div>
+            <p>Add remote</p>
+          </div>
+          <div>
+            <p>git fetch remote</p>
+          </div>
+          <div>
+            <p>Fetch changes</p>
+          </div><div>
+            <p>git push remote :branch</p>
+          </div>
+          <div>
+            <p>Publish tags</p>
+          </div>
+        </section>
+        <section>
+          <h3>Branching/Tagging</h3>
+          <div>
+            <p>git branch</p>
+          </div>
+          <div>
+            <p>List branches</p>
+          </div>
+          <div>
+            <p>git checkout branch</p>
+          </div>
+          <div>
+            <p>Switch to branch</p>
+          </div>
+          <div>
+            <p>git branch new</p>
+          </div>
+          <div>
+            <p>Create new branch</p>
+          </div>
+          <div>
+            <p>git branch new existing</p>
+          </div>
+          <div>
+            <p>Create branch from existing</p>
+          </div>
+          <div>
+            <p>git branch -d branch</p>
+          </div>
+          <div>
+            <p>Delete branch</p>
+          </div>
+          <div>
+            <p>git tag tagname</p>
+          </div>
+          <div>
+            <p>Tag current commit</p>
+          </div>
+
+        </section>
 
 
-  <p>Local Changes
-Changed in working directory
-
-    git status
-
-Tracked file changes
-    ..................
-    git diff
-
-Add changed files
-
-    git add file1 file2 file3
-
-Remove file
-
-    git rm file
-    git rm dir/ -r
-    (recursive under directory)
-
-See files ready for commit
-
-    git diff --cached
-
-Commit changes
-
-    git commit
-    git commit -m "My message"
-    git commit -a -m "My Message"
-    (tracked files only, auto add)
-
-Change last commit
-
-    git commit --amend
-
-Revert changes to file
-
-    git checkout -- file
+    
 
 
 
 
-
-
-
-</p>
 </body>
 
 

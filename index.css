@@ -9,7 +9,7 @@ background-position:center;
 header  {
   font-family: 'Caveat', cursive;
   text-align: center; font-size: 3em;
-  background-color: rgba(206,206,206,0.4);
+  background-color: rgba(206,206,206,0.5);
         }
 header p {
   font-family: fantasy;
@@ -18,20 +18,14 @@ display: inline-block;
 
 }
 
-
-
-
-
 .commandes {
 background-color: rgba(206,206,206,0.4);
 border: 2px solid black ;
 border-radius: 1.5em;
-;
+font-size: 1.4em
            }
 
 .description { font-weight: bold ;
   margin-left: 15%;
-
-
-
+  font-size: 1.2em;
 }

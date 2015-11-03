@@ -3,14 +3,20 @@
   <head>
     <link type="text/css" rel="stylesheet" href="index.css"/>
     <meta charset="utf-8"/>
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet" type="text/css">
     <title>Cheatsheet GIT</title>
 
   </head>
   <body>
-    <h1>How to use Git...</h1>
-      <section>
+    <header>How to use Git... <br/>
+        <a href="local">Local Changes</a>
+        <a href="remote">Remote Update and publish</a>
+        <a href="branching">Branching and Tagging</a>
+        <a href="history">History</a>
+    </header>
+      <section id="local">
         <div>
-          <h3>Local Changes</h3>
+          <h2>Local Changes</h2>
         </div>
         <div class="commandes">
           <p>git status</p>
@@ -66,9 +72,9 @@
           <p>Revert changes to file</p>
         </div>
       </section>
-      <section>
+      <section id="remote">
         <div>
-          <h3>Remote Update / Publish</h3>
+          <h2>Remote Update / Publish</h2>
         </div>
           <div class="commandes">
             <p >git remote -v</p>
@@ -101,8 +107,8 @@
             <p>Publish tags</p>
           </div>
         </section>
-        <section>
-          <h3>Branching/Tagging</h3>
+        <section id="branching">
+          <h2>Branching/Tagging</h2>
           <div class="commandes">
             <p >git branch</p>
           </div>
@@ -140,8 +146,8 @@
             <p>Tag current commit</p>
           </div>
         </section>
-        <section>
-            <h3>History</h3>
+        <section id="history">
+            <h2>History</h2>
               <div class="commandes">
                 <p >git log</p>
               </div>

@@ -1,0 +1,22 @@
+body {
+  background-color: #CECECE;
+font-size: 62.5%;
+margin: 2%;
+font-family: cursive;
+
+}
+
+#local {
+background: red;
+
+}
+#remote{
+background: green;
+
+}
+#branching{
+  background: yellow;
+}
+#history{
+  background: violet;
+}

@@ -8,7 +8,7 @@
 
   </head>
   <body>
-    <header id="haut">How to use Git... <br/>
+    <header id="haut"><h1>How to use Git... </h1><br/>
         <a href="#local">Local Changes</a>
         <a href="#remote">Remote Update and publish</a>
         <a href="#branching">Branching and Tagging</a>
@@ -18,58 +18,57 @@
         <div>
           <h2>Local Changes</h2>
         </div>
-        <div class="commandes">
-          <p>git status</p>
+        <div class="commandes">      <!--remplacer les p par code et descriptif par dt -->
+          <code>git status</code>
         </div>
         <div class="description">
-          <p>Changed in working directory</p>
-        </div>
-        <div class="commandes">
-          <p >git diff</p>
-        </div>
-        <div class="description">
-          <p>Tracked file changes</p>
-        </div>
-        <div class="commandes">
-          <p >git add file1 file2 file3</p>
+          <dt>Changed in working directory</dt>
+        </div>        <div class="commandes">
+          <code>git diff</code>
         </div>
         <div class="description">
-          <p>Add changed files</p>
+          <dt>Tracked file changes</dt>
         </div>
         <div class="commandes">
-          <p>git rm file<br/>
+          <code>git add file1 file2 file3</code>
+        </div>
+        <div class="description">
+          <dt>Add changed files</dt>
+        </div>
+        <div class="commandes">
+          <code>git rm file<br/>
           git rm dir/ -r<br/>
-          <em>(recursive under directory)</em></p>
+          <em>(recursive under directory)</em></code>
         </div>
         <div class="description">
-          <p>Remove files</p>
+          <dt>Remove files</dt>
         </div>
         <div class="commandes">
-          <p >git diff --cached</p>
+          <code>git diff --cached</code>
         </div>
         <div class="description">
-          <p>See files ready for commit</p>
+          <dt>See files ready for commit</dt>
         </div>
         <div class="commandes">
-          <p>git commit<br/>
+          <code>git commit<br/>
           git commit -m "My message"<br/>
           git commit -a -m "My Message"<br/>
-          <em>(tracked files only, auto add)</em></p>
+          <em>(tracked files only, auto add)</em></code>
         </div>
         <div class="description">
-          <p>Commit changes</p>
+          <dt>Commit changes</dt>
         </div>
         <div class="commandes">
-          <p >git commit --amend</p>
+          <code>git commit --amend</code>
         </div>
         <div class="description">
-          <p>Change last commit</p>
+          <dt>Change last commit</dt>
         </div>
         <div class="commandes">
-          <p > git checkout -- file</p>
+          <code> git checkout -- file</code>
         </div>
         <div class="description">
-          <p>Revert changes to file</p>
+          <dt>Revert changes to file</dt>
           <a href="#haut">haut de page</a>
         </div>
       </section>
@@ -78,122 +77,129 @@
           <h2>Remote Update / Publish</h2>
         </div>
           <div class="commandes">
-            <p >git remote -v</p>
+            <code>git remote -v</code>
           </div>
           <div class="description">
-            <p>List Remote</p>
+            <dt>List Remote</dt>
           </div>
           <div class="commandes">
-            <p>git remote show remote</p>
+            <code>git remote show remote</code>
           </div>
           <div class="description">
-            <p>Show information</p>
+            <dt>Show information</dt>
           </div>
           <div class="commandes">
-            <p>git remote add path/url</p>
+            <code>git remote add path/url</code>
           </div>
           <div class="description">
-            <p>Add remote</p>
+            <dt>Add remote</dt>
           </div>
           <div class="commandes">
-            <p >git fetch remote</p>
+            <code>git fetch remote</code>
           </div>
           <div class="description">
-            <p>Fetch changes</p>
+            <dt>Fetch changes</dt>
           </div>
           <div class="commandes">
-            <p >git push remote :branch</p>
+            <code>git push remote :branch</code>
           </div>
           <div class="description">
-            <p>Publish tags</p>
+            <dt>Publish tags</dt>
             <a href="#haut">haut de page</a>
           </div>
         </section>
         <section id="branching">
           <h2>Branching/Tagging</h2>
           <div class="commandes">
-            <p >git branch</p>
+            <code>git branch</code>
           </div>
           <div class="description">
-            <p>List branches</p>
+            <dt>List branches</dt>
           </div>
           <div class="commandes">
-            <p>git checkout branch</p>
+            <code>git checkout branch</code>
           </div>
           <div class="description">
-            <p>Switch to branch</p>
+            <dt>Switch to branch</dt>
           </div>
           <div class="commandes">
-            <p>git branch new</p>
+            <code>git branch new</code>
           </div>
           <div class="description">
-            <p>Create new branch</p>
+            <dt>Create new branch</dt>
           </div>
           <div class="commandes">
-            <p>git branch new existing</p>
+            <code>git branch new existing</code>
           </div>
           <div class="description">
-            <p>Create branch from existing</p>
+            <dt>Create branch from existing</dt>
           </div>
           <div class="commandes">
-            <p>git branch -d branch</p>
+            <code>git branch -d branch</code>
           </div>
           <div class="description">
-            <p>Delete branch</p>
+            <dt>Delete branch</dt>
           </div>
           <div class="commandes">
-            <p>git tag tagname</p>
+            <code>git tag tagname</code>
           </div>
           <div class="description">
-            <p>Tag current commit</p>
+            <dt>Tag current commit</dt>
             <a href="#haut">haut de page</a>
           </div>
         </section>
         <section id="history">
             <h2>History</h2>
               <div class="commandes">
-                <p >git log</p>
+                <code>git log</code>
               </div>
               <div class="description">
-                <p>Show all commits</p>
+                <dt>Show all commits</dt>
               </div>
               <div class="commandes">
-                <p>git log --pretty=-short</p>
+                <code>git log --pretty=-short</code>
               </div>
               <div class="description">
-                <p>Short Format</p>
+                <dt>Short Format</dt>
               </div>
               <div class="commandes">
-                <p>git log -p</p>
+                <code>git log -p</code>
               </div>
               <div class="description">
-                <p>Patches</p>
+                <dt>Patches</dt>
               </div>
               <div class="commandes">
-                <p>git log file</p>
+                <code>git log file</code>
               </div>
               <div class="description">
-                <p>Show file commits</p>
+                <dt>Show file commits</dt>
               </div>
               <div class="commandes">
-                <p>git log dir/</p>
+                <code>git log dir/</code>
               </div>
               <div class="description">
-                <p>Show directory commits</p>
+                <dt>Show directory commits</dt>
               </div>
               <div class="commandes">
-                <p>git log --stat</p>
+                <code>git log --stat</code>
               </div>
               <div class="description">
-                <p>Stats</p>
+                <dt>Stats</dt>
               </div>
               <div class="commandes">
-                <p>git blame file</p>
+                <code>git blame file</code>
               </div>
               <div class="description">
-                <p>Who changed file</p>
+                <dt>Who changed file</dt>
                 <a href="#haut">haut de page</a>
               </div>
             </section>
+            <footer>
+
+              <a href="#local">Local Changes</a>
+              <a href="#remote">Remote Update and publish</a>
+              <a href="#branching">Branching and Tagging</a>
+              <a href="#history">History</a>
+            </footer>
           </body>
   </html>

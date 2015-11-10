@@ -98,3 +98,40 @@ footer{
 }
 /*-----------------------------smartphone---------------------------------------
 ------------------------------------------------------------------------------*/
+@media screen and (max-width:320px) {
+header{
+  text-align: center;
+  margin-top: 55%;
+  margin-bottom: 35%;
+}
+header input{
+  display: none;
+}
+h1{
+font-size: 3em;
+margin-bottom: 45%;
+}
+h2{
+  font-size: 1.8em;
+  text-align: center;
+}
+code{
+  background: #CECECE;
+  border-radius: 0.5em;
+  font-size: 1.6em;
+  margin-left: 5%;
+}
+dt{
+  font-size: 1.6em;
+  margin-left: 10%;
+}
+footer{
+background: #CECECE;
+position: fixed;
+bottom: 2%;
+text-align: center;
+width: 5em;
+
+}
+
+}

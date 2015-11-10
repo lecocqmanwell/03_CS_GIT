@@ -1,7 +1,6 @@
 body {
   background-color: #CECECE;
 font-size: 62.5%;
-margin: 2%;
 font-family: cursive;
 
 }
@@ -19,4 +18,70 @@ background: green;
 }
 #history{
   background: violet;
+}
+
+/*-------------------------ordi-------------------------------------------------
+------------------------------------------------------------------------------*/
+@media screen and (min-width:801px){
+header{
+display: block;
+text-align: center;
+margin-top: 15%;
+margin-bottom: 15%;
+
+}
+h1 {
+font-size: 6em;
+
+}
+
+header input {
+  margin-bottom: 5%;
+  display: inline;
+  font-size: 2.8em;
+  text-decoration: none;
+}
+section{
+font-size: 2em;
+}
+
+h2{
+  font-size: 3em;
+  text-align: center;
+}
+code{
+background-color: #CECECE;
+border-radius: .3em;
+margin-left: 5%;
+}
+dt{
+margin-left: 15%;
+}
+.commandes{
+margin-top: 4%;
+}
+footer{
+text-decoration: none;
+font-size: 5em;
+display: inline-block;
+}
+}
+/*------------------------------------tablette----------------------------------
+------------------------------------------------------------------------------*/
+@media screen and (min-width:321px) and (max-width:800px) {
+
+  header{
+  display: block;
+  text-align: center;
+  margin-top: 35%;
+  margin-bottom: 20%;
+  }
+h1{
+  font-size: 5em;
+  margin-bottom: 15%;
+}
+
+
+
+
 }
